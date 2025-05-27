@@ -224,4 +224,5 @@ if from_id != to_id:
     elif "38I" in smallest:
         st.warning(warning)
 
+st.text("Green markets are nodes, meaning possible rechargers, blue markers are other airports.")
 data = st_folium(m, width='100%', height=700)
