@@ -22,6 +22,29 @@ st.title("Ohio Airport Route Finder")
 m = folium.Map(location=KENT, zoom_start=7, tiles="OpenStreetMap", control_scale=True, width='100%', height='100%') # Creates a new Map centered on Kent State University Airport
 
 # -------------------------------------------------
+# Create layers for the Aeronautical Charts from the FAA
+# -------------------------------------------------
+
+# FAA VFR Sectional layer
+folium.TileLayer(
+    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
+          "services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}",
+    attr="FAA VFR Sectional – tiles.arcgis.com",
+    name="VFR Sectional",
+    overlay=True, control=True, max_zoom=12,
+).add_to(m)
+# IFR Low
+folium.TileLayer(
+    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
+          "services/IFR_AreaLow/MapServer/tile/{z}/{y}/{x}",
+    attr="FAA IFR Low – tiles.arcgis.com",
+    name="IFR Low",
+    overlay=True, control=True, max_zoom=13,
+).add_to(m)
+
+folium.LayerControl().add_to(m)
+
+# -------------------------------------------------
 # Creates a list of nodes
 # -------------------------------------------------
 nodes = {"KENT", "MFD", "TSO", "FZI", "OSU", "AOH", "I66", "22I",
