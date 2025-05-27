@@ -1,6 +1,7 @@
 pandas
 geopy
 folium
+streamlit
 streamlit_folium
 math
 heapq
