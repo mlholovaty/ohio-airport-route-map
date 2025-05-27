@@ -210,10 +210,10 @@ if from_id != to_id:
             opacity=0.7,
         ).add_to(m)
     
-    st.success(f"Great-circle distance from {from_id} to {to_id}: **{distance:,.2f} km**"
+    st.success(f"The total distance from {from_id} to {to_id}: **{distance:,.2f} km**"
                f" The path is: {smallest}")
 
-    warning = "WARNING: This route is in the limit of the aircraft range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
+    warning = "WARNING: This route is at the limit of the aircraft's range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
 
     if "HTW" in smallest:
         st.warning(warning)
