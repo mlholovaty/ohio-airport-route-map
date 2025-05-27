@@ -1,7 +1,4 @@
 import pandas as pd
-from ipyleaflet import Map, Marker, Polyline
-from ipywidgets import VBox, HTML
-from geopy.distance import great_circle
 import folium
 import streamlit as st
 from streamlit_folium import st_folium
