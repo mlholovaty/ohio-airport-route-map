@@ -6,6 +6,7 @@ import math
 import heapq
 from collections import defaultdict, deque
 from itertools import pairwise
+import branca.colormap as cm
 
 # -------------------------------------------------
 # Load the coordinate table once at start-up
@@ -20,6 +21,82 @@ st.set_page_config(layout="wide")
 st.title("Ohio Airport Route Finder")
 
 m = folium.Map(location=KENT, zoom_start=7, tiles="OpenStreetMap", control_scale=True, width='100%', height='100%') # Creates a new Map centered on Kent State University Airport
+
+# -------------------------------------------------
+# Create layers for wind velocity from the National Weather Service
+# -------------------------------------------------
+
+folium.raster_layers.WmsTileLayer(
+    url="https://digital.weather.gov/ndfd/wms",   # master endpoint
+    layers="ndfd.conus.windspd",                  # 10 m wind-speed forecast
+    name="Wind speed (kts)",
+    fmt="image/png",
+    transparent=True,
+    overlay=True,
+    control=True,
+    attr="NWS NDFD"                               # credit
+).add_to(m)
+
+folium.LayerControl().add_to(m)
+
+# Add the legend for speed
+wind_cmap = cm.StepColormap(
+    colors=[
+        "#d8d8e9",  # 0 kt  – light grey-violet
+        "#f3b1f3",  # 5 kt  – light magenta
+        "#ea74ff",  # 10 kt – pink-magenta
+        "#a35cff",  # 15 kt – purple
+        "#6175ff",  # 20 kt – blue-violet
+        "#29d2ff",  # 25 kt – cyan
+        "#1edd7a",  # 30 kt – green
+        "#c8f000",  # 35 kt – yellow-green
+        "#ffb200",  # 40 kt – orange
+        "#ff5a36",  # 45 kt – red-orange
+        "#b20034",  # 60 kt – deep red
+    ],
+    index=[0,5,10,15,20,25,30,35,40,45,60],
+    vmin=0,
+    vmax=60,
+    caption="Wind speed (knots)"
+)
+wind_cmap.add_to(m)
+
+# -------------------------------------------------
+# Create layers for wind direction from the National Weather Service
+# -------------------------------------------------
+
+# Add wind direction layer
+folium.raster_layers.WmsTileLayer(
+    url="https://digital.weather.gov/ndfd/wms",
+    layers="ndfd.conus.winddir",
+    name="Wind direction",
+    fmt="image/png",
+    transparent=True,
+    overlay=True,
+    control=True,
+).add_to(m)
+
+# Add the legend for direction
+dir_bins = [0, 45, 90, 135, 180, 225, 270, 315, 360]   # boundaries in degrees
+dir_colors = [
+    "#6e7fc0",   # N   – lavender-blue
+    "#00a0c2",   # NE  – cyan-teal
+    "#009b7a",   # E   – teal-green
+    "#4a7c39",   # SE  – sage-green
+    "#b96969",   # S   – rose
+    "#8a6334",   # SW  – brown-orange
+    "#6e7c32",   # W   – olive-green
+    "#775c8c",   # NW  – violet-purple
+]
+
+dir_cmap = cm.StepColormap(
+    colors = dir_colors,
+    index  = dir_bins,
+    vmin   = 0,
+    vmax   = 360,
+    caption = "Wind direction (° / compass)"
+)
+dir_cmap.add_to(m)
 
 # -------------------------------------------------
 # Create layers for the Aeronautical Charts from the FAA
@@ -42,7 +119,6 @@ folium.TileLayer(
     overlay=True, control=True, max_zoom=12,
 ).add_to(m)
 
-folium.LayerControl().add_to(m)
 
 # -------------------------------------------------
 # Creates a list of nodes
