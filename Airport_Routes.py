@@ -119,6 +119,7 @@ folium.TileLayer(
     overlay=True, control=True, max_zoom=12,
 ).add_to(m)
 
+folium.LayerControl().add_to(m)
 
 # -------------------------------------------------
 # Creates a list of nodes
