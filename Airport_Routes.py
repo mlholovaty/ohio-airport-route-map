@@ -23,26 +23,11 @@ st.title("Ohio Airport Route Finder")
 m = folium.Map(location=KENT, zoom_start=7, tiles="OpenStreetMap", control_scale=True, width='100%', height='100%') # Creates a new Map centered on Kent State University Airport
 
 # -------------------------------------------------
-# Create layers for wind velocity from the National Weather Service
+# Create layers for wind velocity and dirrection
+# from the National Weather Service
 # -------------------------------------------------
 
-# FAA VFR Sectional layer
-folium.TileLayer(
-    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
-          "services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}",
-    attr="FAA VFR Sectional – tiles.arcgis.com",
-    name="VFR Sectional",
-    overlay=True, control=True, max_zoom=12,
-).add_to(m)
-
-folium.TileLayer(
-    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
-          "services/IFR_AreaLow/MapServer/tile/{z}/{y}/{x}",
-    attr="FAA IFR Low – tiles.arcgis.com",
-    name="IFR Low",
-    overlay=True, control=True, max_zoom=13,
-).add_to(m)
-
+# Add wind velocity layer
 folium.raster_layers.WmsTileLayer(
     url="https://digital.weather.gov/ndfd/wms",   # master endpoint
     layers="ndfd.conus.windspd",                  # 10 m wind-speed forecast
@@ -65,6 +50,7 @@ folium.raster_layers.WmsTileLayer(
     control=True,
 ).add_to(m)
 
+# Add wind velocity legend
 wind_cmap = cm.StepColormap(
     colors=[
         "#d8d8e9",  # 0 kt  – light grey-violet
@@ -86,6 +72,7 @@ wind_cmap = cm.StepColormap(
 )
 wind_cmap.add_to(m)
 
+# Add wind direction legend
 dir_bins = [0, 45, 90, 135, 180, 225, 270, 315, 360]   # boundaries in degrees
 dir_colors = [
     "#6e7fc0",   # N   – lavender-blue
@@ -106,6 +93,28 @@ dir_cmap = cm.StepColormap(
     caption = "Wind direction (° / compass)"
 )
 dir_cmap.add_to(m)
+
+# -------------------------------------------------
+# Create layers for VFR and IFR from the FAA
+# -------------------------------------------------
+
+# FAA VFR Sectional layer
+folium.TileLayer(
+    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
+          "services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}",
+    attr="FAA VFR Sectional – tiles.arcgis.com",
+    name="VFR Sectional",
+    overlay=True, control=True, max_zoom=12,
+).add_to(m)
+
+# FAA IFR layer
+folium.TileLayer(
+    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
+          "services/IFR_AreaLow/MapServer/tile/{z}/{y}/{x}",
+    attr="FAA IFR Low – tiles.arcgis.com",
+    name="IFR Low",
+    overlay=True, control=True, max_zoom=13,
+).add_to(m)
 
 folium.LayerControl().add_to(m)
 
