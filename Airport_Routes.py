@@ -190,6 +190,29 @@ for n in nodes:
         if total_km > 105: # skip long hops; there is no need to add them
             continue
 
+        # Handle special cases for specific nodes that need priority
+        # Such as the nodes across the border, which need to pass
+        # through border control such as CYPT and TOL.
+        # The code below ensures that the routes when crossing the border
+        # pass through the correct nodes and are added to the graph
+        if n == "TOL" and ids == "CYPT":
+            graph1[n].append((ids, total_km))
+            continue
+        if n == "CYPT" and ids == "TOL":
+            continue
+        if ids == "CYPT":
+            graph2[n].append((ids, total_km))
+            continue
+
+        if n == "CYPT" and ids == "CLM2":
+            graph1[n].append((ids, total_km))
+        elif n == "CYPT":
+            continue
+        if ids == "CLM2":
+            continue
+        if n == "CLM2" and ids == "3W2" or n == "CLM2" and ids == "BASS" or n == "CLM2" and ids == "89D" or n == "CLM2" and ids == "LPR":
+            continue
+      
         if total_km <= 52:
             graph1[n].append((ids, total_km))
         elif ids in nodes:  # if the other ID is a node
