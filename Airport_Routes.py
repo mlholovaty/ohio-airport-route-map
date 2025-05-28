@@ -98,15 +98,6 @@ dir_cmap.add_to(m)
 # Create layers for VFR and IFR from the FAA
 # -------------------------------------------------
 
-# FAA VFR Sectional layer
-folium.TileLayer(
-    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
-          "services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}",
-    attr="FAA VFR Sectional – tiles.arcgis.com",
-    name="VFR Sectional",
-    overlay=True, control=True, max_zoom=12,
-).add_to(m)
-
 # FAA IFR layer
 folium.TileLayer(
     tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
@@ -114,6 +105,15 @@ folium.TileLayer(
     attr="FAA IFR Low – tiles.arcgis.com",
     name="IFR Low",
     overlay=True, control=True, max_zoom=13,
+).add_to(m)
+
+# FAA VFR Sectional layer
+folium.TileLayer(
+    tiles="https://tiles.arcgis.com/tiles/ssFJjBXIUyZDrSYZ/arcgis/rest/"
+          "services/VFR_Sectional/MapServer/tile/{z}/{y}/{x}",
+    attr="FAA VFR Sectional – tiles.arcgis.com",
+    name="VFR Sectional",
+    overlay=True, control=True, max_zoom=12,
 ).add_to(m)
 
 folium.LayerControl().add_to(m)
