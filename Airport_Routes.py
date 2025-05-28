@@ -123,7 +123,7 @@ folium.LayerControl().add_to(m)
 # -------------------------------------------------
 nodes = {"KENT", "MFD", "TSO", "FZI", "OSU", "AOH", "I66", "22I",
          "ZZV", "I17", "LPR", "ØG6", "LUK", "HZY", "YNG", "4G5",
-         "GAS", "3W2", "TOL", "EOP", "1ØG", "CLM2"}
+         "GAS", "3W2", "TOL", "EOP", "1ØG", "CYPT", "CLM2"}
 
 graph1 = {n: [] for n in nodes} # create empty graph
 graph2 = {n: [] for n in nodes} # create empty graph
