@@ -301,9 +301,9 @@ def dijkstra_all_paths(graph, start, goal):
 # Dropdowns to select airports
 airport_ids = coords.index.tolist()
 from_id = st.selectbox("Select departure airport:", airport_ids)
-to_id = st.selectbox("Select destination airport:", airport_ids)
+to_id = st.selectbox("Select destination airport:", airport_ids) 
 
- warning = "WARNING: This route is at the limit of the aircraft's range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
+warning = "WARNING: This route is at the limit of the aircraft's range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
 
 if from_id != to_id:
 
