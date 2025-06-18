@@ -329,7 +329,7 @@ if from_id != to_id:
                 opacity=0.7,
             ).add_to(m)
           
-          path_ids2 = [start, end]
+            path_ids2 = [start, end]
             total_km2, legs2 = path_length(path_ids2)
             if total_km2 > 52:
                 st.warning(warning)
