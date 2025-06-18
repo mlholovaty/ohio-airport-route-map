@@ -303,6 +303,8 @@ airport_ids = coords.index.tolist()
 from_id = st.selectbox("Select departure airport:", airport_ids)
 to_id = st.selectbox("Select destination airport:", airport_ids)
 
+ warning = "WARNING: This route is at the limit of the aircraft's range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
+
 if from_id != to_id:
 
     if from_id not in graph or to_id not in graph:
@@ -312,7 +314,7 @@ if from_id != to_id:
     distance, paths = dijkstra_all_paths(graph, from_id, to_id)
     smallest = min(paths, key=len)
 
-    if from_id not in nodes:
+    if from_id not in nodes["ID"].values:
         st.warning(f"The departure airport {from_id} is not a node, please check if battery is enough to reach {smallest[1]}.")
     if len(smallest) > 2:
         for start, end in pairwise(smallest):
@@ -326,6 +328,11 @@ if from_id != to_id:
                 weight=5,
                 opacity=0.7,
             ).add_to(m)
+          
+          path_ids2 = [start, end]
+            total_km2, legs2 = path_length(path_ids2)
+            if total_km2 > 52:
+                st.warning(warning)
     else:
         id_a, id_b = smallest
         folium.PolyLine(
@@ -338,16 +345,14 @@ if from_id != to_id:
     st.success(f"The total distance from {from_id} to {to_id}: **{distance:,.2f} km**"
                f" The path is: {smallest}")
 
-    warning = "WARNING: This route is at the limit of the aircraft's range, and although it is possible to fly this route and back, \n it is not recommended. Please check the weather and power before departure."
-
-    if "HTW" in smallest:
-        st.warning(warning)
-    elif "4I3" in smallest:
-        st.warning(warning)
-    elif "GEO" in smallest or "OXD" in smallest:
-        st.warning(warning)
-    elif "38I" in smallest:
-        st.warning(warning)
+    #if "HTW" in smallest:
+    #    st.warning(warning)
+    #elif "4I3" in smallest:
+    #    st.warning(warning)
+    #elif "GEO" in smallest or "OXD" in smallest:
+    #    st.warning(warning)
+    #elif "38I" in smallest:
+    #    st.warning(warning)
 
 st.text("Green markets are nodes, meaning possible rechargers, blue markers are other airports.")
 data = st_folium(m, width='100%', height=700)
