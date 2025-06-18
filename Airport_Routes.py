@@ -121,18 +121,16 @@ folium.LayerControl().add_to(m)
 # -------------------------------------------------
 # Creates a list of nodes
 # -------------------------------------------------
-nodes = {"KENT", "MFD", "TSO", "FZI", "OSU", "AOH", "I66", "22I",
-         "ZZV", "I17", "LPR", "ØG6", "LUK", "HZY", "YNG", "4G5",
-         "GAS", "3W2", "TOL", "EOP", "1ØG", "CYPT", "CLM2"}
+nodes = pd.read_csv("final_recharge_nodes.csv", header=None, names=["ID"])
 
-graph1 = {n: [] for n in nodes} # create empty graph
-graph2 = {n: [] for n in nodes} # create empty graph
+graph1 = {n: [] for n in nodes["ID"].values} # create empty graph that is bidirectional
+graph2 = {n: [] for n in nodes["ID"].values} # create empty graph
 
 # -------------------------------------------------
 # Create a map with markers
 # -------------------------------------------------
 for b in coords.iterrows():
-    if b[0] in nodes:
+    if b[0] in nodes["ID"].values:
         lat, lon = b[1]
         folium.Marker(
             location=(lat, lon),
@@ -177,7 +175,10 @@ def path_length(path_ids):
 # -------------------------------------------------
 # Create a graph with edges
 # -------------------------------------------------
-for n in nodes:
+# -------------------------------------------------
+# Create a graph with edges
+# -------------------------------------------------
+for n in nodes["ID"]:
     for c in coords.iterrows():
 
         if n == c[0]:
@@ -190,8 +191,8 @@ for n in nodes:
         if total_km > 105: # skip long hops; there is no need to add them
             continue
 
-        # Handle special cases for specific nodes that need priority
-        # Such as the nodes across the border, which need to pass
+        # Handle special cases for specific nodes that needs priority
+        # Such as the nodes across the border, which needs to pass
         # through border control such as CYPT and TOL.
         # The code below ensures that the routes when crossing the border
         # pass through the correct nodes and are added to the graph
@@ -212,21 +213,25 @@ for n in nodes:
             continue
         if n == "CLM2" and ids == "3W2" or n == "CLM2" and ids == "BASS" or n == "CLM2" and ids == "89D" or n == "CLM2" and ids == "LPR":
             continue
-      
+
+
         if total_km <= 52:
             graph1[n].append((ids, total_km))
-        elif ids in nodes:  # if the other ID is a node
+        elif ids in nodes["ID"].values:  # if the other ID is a node
             graph2[n].append((ids, total_km))
+            continue
+        elif total_km <= 55:
+            graph1[n].append((ids, total_km))
         
         # Add specific edges based on the original code logic
-        if n == "GAS" and ids == "HTW":
-            graph1[n].append((ids, total_km))
-        if n == "1ØG" and ids == "4I3":
-            graph1[n].append((ids, total_km))
-        if n == "LUK" and ids == "GEO" or n == "LUK" and ids == "OXD":
-            graph1[n].append((ids, total_km))
-        if n == "OSU" and ids == "38I":
-            graph1[n].append((ids, total_km))
+        #if n == "GAS" and ids == "HTW":
+        #    graph1[n].append((ids, total_km))
+        #if n == "1ØG" and ids == "4I3":
+        #    graph1[n].append((ids, total_km))
+        #if n == "LUK" and ids == "GEO" or n == "LUK" and ids == "OXD":
+        #    graph1[n].append((ids, total_km))
+        #if n == "OSU" and ids == "38I":
+        #    graph1[n].append((ids, total_km))
 
 # Make sure the graph1 (<50km) is bidirectional
 for u in list(graph1.keys()):                                   # iterate over a static copy of the keys
