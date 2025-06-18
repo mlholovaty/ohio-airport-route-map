@@ -331,7 +331,7 @@ if from_id != to_id:
           
             path_ids2 = [start, end]
             total_km2, legs2 = path_length(path_ids2)
-            if total_km2 > 52:
+            if total_km2 > 52 and end not in nodes["ID"].values::
                 st.warning(warning)
     else:
         id_a, id_b = smallest
