@@ -1,0 +1,951 @@
+﻿Airport Name,ID,Latitude (Decimal),Longitude (Decimal)
+KENT 1G3,KENT,41.15138889,-81.41511111
+AKRON AKR,AKR,41.03742222,-81.46768333
+AKRON CAK,CAK,40.91505556,-81.44363889
+AKRON 1D4,1D4,40.99255556,-81.43178056
+ALLIANCE 4G3,4G3,40.98175,-81.04213889
+ALLIANCE 2D1,2D1,40.96996944,-81.09866667
+ASHLAND 3G4,3G4,40.90297222,-82.25563889
+ASHTABULA HZY,HZY,41.77777778,-80.69677778
+ATHENS/ALBANY UNI,UNI,39.21189167,-82.22925556
+BALTIMORE 7B4,7B4,39.88450833,-82.58905
+BARNESVILLE 6G5,6G5,40.00241667,-81.19183333
+BATAVIA I69,I69,39.07838889,-84.21022222
+BEACH CITY 2D7,2D7,40.64635278,-81.5559
+BELLEFONTAINE EDJ,EDJ,40.37227778,-83.81925
+BLUFFTON 5G7,5G7,40.88544444,-83.86863889
+BOWLING GREEN 1GØ,1GØ,41.391,-83.63013889
+BRYAN ØG6,ØG6,41.46730556,-84.50677778
+BUCYRUS 17G,17G,40.78158333,-82.97480556
+CADIZ 8G6,8G6,40.23836944,-81.01288333
+CALDWELL I1Ø,I1Ø,39.80096944,-81.536325
+CAMBRIDGE CDI,CDI,39.97502778,-81.57758333
+CARROLLTON TSO,TSO,40.56166667,-81.07808333
+CARROLLTON 5D6,5D6,40.64808056,-81.06952778
+CELINA CQA,CQA,40.48427778,-84.55819444
+CENTERBURG 6CM,6CM,40.29545,-82.72997222
+CHESAPEAKE HTW,HTW,38.41911111,-82.49483333
+CHILLICOTHE RZT,RZT,39.44041667,-83.02305556
+CINCINNATI LUK,LUK,39.10333333,-84.41861111
+CIRCLEVILLE CYO,CYO,39.516,-82.98213889
+CLEVELAND CLE,CLE,41.40940556,-81.85469167
+CLEVELAND CGF,CGF,41.56458333,-81.48722222
+CLEVELAND BKL,BKL,41.51786111,-81.68263889
+CLYDE 5D9,5D9,41.22394444,-82.95769167
+COLUMBIA,4G8,41.31868056,-81.96044167
+COLUMBUS TZR,TZR,39.90116667,-83.13691667
+COLUMBUS LCK,LCK,39.81378889,-82.92781667
+COLUMBUS OSU,OSU,40.07951667,-83.07321389
+COLUMBUS CMH,CMH,39.99694722,-82.89215833
+COSHOCTON I4Ø,I4Ø,40.31016667,-81.85241667
+DAYTON DAY,DAY,39.90225278,-84.21941111
+DAYTON I44,I44,39.76510556,-84.34296111
+DAYTON I19,I19,39.69072222,-83.99277778
+DAYTON I73,I73,39.68210833,-84.23999167
+DAYTON MGY,MGY,39.58897222,-84.22486111
+DAYTON 3I7,3I7,39.91327778,-84.40041389
+DEFIANCE DFI,DFI,41.3375,-84.42880556
+DELAWARE DLZ,DLZ,40.27954167,-83.11338333
+DESHLER 6D7,6D7,41.21544444,-83.87086944
+EAST LIVERPOOL Ø2G,Ø2G,40.67330556,-80.64141667
+ELYRIA 1G1,1G1,41.33152778,-82.10025
+FINDLAY FDY,FDY,41.01202778,-83.66861111
+FOSTORIA FZI,FZI,41.19083333,-83.39308333
+FREMONT 14G,14G,41.33308333,-83.16119444
+FREMONT S24,S24,41.29575,-83.03722222
+GALION GQQ,GQQ,40.75338889,-82.72380556
+GALLIPOLIS GAS,GAS,38.83411111,-82.16343056
+GARRETTSVILLE 7D8,7D8,41.35116667,-81.09954167
+GENEVA 7D9,7D9,41.77783333,-80.90398056
+GEORGETOWN GEO,GEO,38.88194444,-83.88273611
+HAMILTON HAO,HAO,39.36375,-84.52194444
+HARRISON I67,I67,39.25926944,-84.77430556
+HILLSBORO HOC,HOC,39.18876111,-83.53879167
+HURON 88D,88D,41.40449444,-82.60314722
+JACKSON JRO,JRO,38.98136111,-82.57785
+KELLEYS ISLAND 89D,89D,41.60318056,-82.68505556
+KENTON I95,I95,40.61009167,-83.64425833
+LANCASTER LHQ,LHQ,39.75563889,-82.65709722
+LEBANON I68,I68,39.46217222,-84.25184722
+LEIPSIC R47,R47,41.10310556,-84.05188889
+LIMA AOH,AOH,40.70747778,-84.02707778
+LONDON UYF,UYF,39.93272222,-83.462
+LORAIN/ELYRIA LPR,LPR,41.34427778,-82.17763889
+MANSFIELD MFD,MFD,40.82141667,-82.51663889
+MARION MNN,MNN,40.61625,-83.06347222
+MARYSVILLE MRT,MRT,40.2245,-83.35163333
+MC ARTHUR 22I,22I,39.328125,-82.44182222
+MEDINA 1G5,1G5,41.13144444,-81.76488889
+MIDDLE BASS,BASS,41.69444444,-82.79655556
+MIDDLEFIELD 7G8,7G8,41.44959444,-81.06293333
+MIDDLETOWN MWO,MWO,39.53175,-84.39644444
+MILLERSBURG 1ØG,1ØG,40.5367,-81.95594167
+MOUNT GILEAD 4I9,4I9,40.52452222,-82.85006111
+MOUNT VERNON 4I3,4I3,40.32891111,-82.52606944
+MOUNT VERNON 6G4,6G4,40.36506111,-82.49571944
+MOUNT VICTORY O74,O74,40.52472222,-83.51166667
+NAPOLEON 7W5,7W5,41.37426944,-84.06788056
+NEW LEXINGTON I86,I86,39.69159167,-82.19778889
+NEWARK VTA,VTA,40.02466667,-82.46180556
+NEWTON FALLS 41N,41N,41.21116667,-80.96925833
+NORWALK 5A1,5A1,41.24475,-82.55122222
+OTTAWA OWX,OWX,41.03559444,-83.98189444
+OXFORD OXD,OXD,39.50225833,-84.78438056
+PAINESVILLE 2G1,2G1,41.66704444,-81.19718333
+PIQUA I17,I17,40.16469444,-84.30841667
+PORT CLINTON PCW,PCW,41.51626944,-82.86948611
+PORTSMOUTH PMH,PMH,38.84047222,-82.84730833
+PUT IN BAY 3W2,3W2,41.63666667,-82.82833333
+RADNOR 5E9,5.00E+09,40.40797778,-83.21936111
+RAVENNA POV,POV,41.21018333,-81.251625
+SALEM 38D,38D,40.94808056,-80.86208056
+SALEM 8G8,8G8,40.88269444,-80.88102222
+SEBRING 3G6,3G6,40.906,-81.00002778
+SHELBY 12G,12G,40.87286111,-82.69738889
+SIDNEY SCA,SCA,40.24127778,-84.14786111
+SPRINGFIELD SGH,SGH,39.84027778,-83.84016667
+ST CLAIRSVILLE 2P7,2P7,40.05686389,-80.96318889
+STEUBENVILLE 2G2,2G2,40.36061111,-80.70169444
+TIFFIN 16G,16G,41.09405556,-83.2125
+TOLEDO TOL,TOL,41.58681667,-83.80782778
+TOLEDO TDZ,TDZ,41.56494444,-83.48222222
+TORONTO 1G8,1G8,40.47598889,-80.62805833
+TROY 1WF,1WF,40.01479444,-84.19808056
+UPPER,56D,40.88336944,-83.31453056
+URBANA I74,I74,40.13237222,-83.75406389
+URBANA 38I,38I,40.09116944,-83.68936944
+VAN WERT VNW,VNW,40.86383056,-84.60635833
+VERSAILLES VES,VES,40.20441111,-84.53242222
+WADSWORTH 3G3,3G3,41.00306111,-81.75652222
+WADSWORTH 15G,15G,41.02818333,-81.79814722
+WAKEMAN I64,I64,41.29349167,-82.37236111
+WAPAKONETA AXV,AXV,40.49354722,-84.298075
+WARREN 62D,62D,41.26702778,-80.92736111
+WASHINGTON,I23,39.57040278,-83.42051389
+WAUSEON USE,USE,41.60977778,-84.12718889
+WAVERLY EOP,EOP,39.16697222,-82.92833333
+WAYNESVILLE 4ØI,4ØI,39.50533889,-84.12188056
+West Lafayette,8ØG,40.24785833,-81.73606944
+WILLARD 8G1,8G1,41.03875,-82.72456389
+WILLOUGHBY LNN,LNN,41.68402778,-81.38975
+WILMINGTON ILN,ILN,39.42791667,-83.79211111
+WILMINGTON I66,I66,39.50247778,-83.86331111
+WILMINGTON 2B6,2B6,39.43756111,-83.70825556
+WOODSFIELD 4G5,4G5,39.77905278,-81.10278056
+WOOSTER BJJ,BJJ,40.87483333,-81.88825
+YOUNGSTOWN Ø4G,04G,41.13047222,-80.61958333
+YOUNGSTOWN 4G4,4G4,40.96179444,-80.67732778
+YOUNGSTOWN/W,YNG,41.26158333,-80.68036111
+ZANESVILLE ZZV,ZZV,39.94444722,-81.89209444
+ZANESVILLE 42I,42I,40.00729167,-82.01348056
+BANNOCK 2D6,2D6,40.10701389,-80.97537222
+CANTON 5D1,5D1,40.84016667,-81.30833333
+DAYTON 5D7,5D7,39.75755556,-84.18839444
+TOLEDO 6T2,6T2,41.65421667,-83.53132222
+TOLEDO 2C9,2C9,41.62222222,-83.553375
+PELEE ,CYPT,41.7775,-82.678056
+WINDSOR,YQG,42.276167,-82.955333
+LEAMINGTON,CLM2,42.024667,-82.525
+Klaverack Airport,04NY,42.26229858,-73.69619751
+Classic Landings Airport,05IL,41.15670013,-88.01670074
+Henning Municipal Airport,05Y,46.303799,-95.439499
+Canadian Lakes Airport,0C5,43.575666,-85.284182
+Grandpas' Farm Mendota Airport,IL22,41.521999,-89.132599
+Sugar Springs Airpark,5M6,44.140301,-84.4375
+Kelleys Airport,0MI3,44.63339996,-84.48339844
+Lesterson-Dempsey Airstrip,0MI4,46.270198,-87.386496
+Westwind Farm Airport,0NK2,42.98339844,-74.0161972
+Bennetts Airport,0NY0,43.692973,-73.978013
+Mort's Landing Airport,0WI1,45.50719833,-92.14189911
+Snow Crest Ranch Airport,0WI4,43.82939911,-89.3526001
+Winsted Municipal Airport,10D,44.950001,-94.066902
+Himsel Army Airfield,HBE,39.33933,-86.02983
+Littlefork Muni/Hanover Airport,13Y,48.41659927,-93.58630371
+Pruss Airport,17IN,38.978401,-85.109703
+Nest of Eagles Airport,1H9,45.83549881,-91.80269623
+Holland Field,1IL9,40.30059814,-89.12439728
+Black River Ranch Airport,1MI3,45.19580078,-84.32170105
+Carlson Agricultural Airport,1MY1,45.98529816,-96.19439697
+Albert Airport,1N3,40.9715,-78.242897
+High Banks Farm Landing Area Airport,1NY4,44.61750031,-73.91100311
+Aero Estates Airport,1WI6,42.84030151,-88.06400299
+Kitty-Wompus Airport,26WI,45.69910049,-91.30349731
+Cedar Farm Airport,28II,37.97470093,-86.05619812
+Rutherford Airport,28WI,44.60409927,-92.04660034
+Wetenkamp Airport,29MN,46.02830124,-96.3628006
+Flying A Airport,2C4,43.816724,-92.336869
+Almena Airport,2C5,42.253002,-85.851789
+Ed-Air Airport,I20,38.851782,-87.49987
+Meadow Creek Airport,2IL9,41.43280029,-87.78170013
+Somerville Airport,2MI5,42.941727,-85.485112
+Flugplatz Airport,7MI,43.34183,-82.54842
+Bender's Airport,2WI0,44.85269928,-89.60009766
+Oshkosh Sky Ranch Airport,2WN8,44.015228,-88.714269
+Timber House Airport,31IN,40.28499985,-86.85639954
+Sullivan Airport,W11,43.007432,-88.602237
+Wayne Delp Airport,33NY,42.393243,-73.867779
+Merillat Airport,34G,41.974998,-83.925201
+Tecumseh Mills Airport,22T,42.034351,-83.879328
+Holland Air Park,36WI,44.03219986,-91.29959869
+Cain Field,38C,43.59999847,-85.49310303
+Aerequus Airport,38PA,40.39089966,-75.01409912
+Roberts Field,39IN,40.00230026,-85.42890167
+Mishawaka Pilots Club Airport,3C1,41.657001,-86.034698
+Shenandoah Flying Field,3II1,39.41669846,-86.63580322
+South Fox Island Airport,3MI2,45.39920044,-85.83010101
+Mahnomen County Airport,3N8,47.261412,-95.930057
+De Ronda Airport,3NY3,42.85979843,-74.82430267
+Six Ponds Airport,3NY6,42.84120178,-74.17870331
+Tesmer Airport,3WI2,43.15280151,-88.98459625
+Three Lakes Municipal Airport,40D,45.790199,-89.121002
+Paddock Field,41WI,42.73860168,-88.57980347
+W Gladstone Airport,43MI,45.85910034,-87.1167984
+Superior Aero Estates Airport,43MN,46.934031,-92.412775
+Kolb Airport,43PA,40.16009903,-75.5463028
+Northome Municipal Airport,43Y,47.889453,-94.260103
+Pelican Rapids Muni-Lyon's Field,47Y,46.641602,-96.1045
+Piney Pinecreek Border Airport,48Y,48.99959946,-95.98259735
+Gettlefinger Field,4II6,38.37919998,-86.08159637
+Willis Airport,4II8,39.725591,-85.714881
+Riley Field,4IN7,40.30089951,-87.22920227
+Culp Farms Airport,4IN8,40.86750031,-87.06829834
+Staton Airport,4LL1,41.85419846,-89.08760071
+Hiawatha Airport,4PA6,41.9151001,-75.36440277
+Way West Airport,50II,39.773432,-86.754855
+Anderson Field,52MN,48.64300156,-96.80729675
+Woodruff Lake Airport,53W,43.55450058,-84.97889709
+Sky Soaring Airport,55LL,42.15420151,-88.5114975
+Indian Creek Ranch Airport,56G,43.57770157,-82.64759827
+Wade Airport,56LL,41.75500107,-88.77120209
+Maynard's Airport,56NY,43.324857,-78.051548
+Hilltop Airport,58IN,41.25839996,-84.86389923
+Torchport Airport,59M,45.055801,-85.355904
+Woolsey Memorial Airport,5D5,45.165001,-85.5718
+Indian Lake Airport,5G2,40.054199,-78.847
+Schuy-Rush Airport,5K4,40.1175,-90.590401
+Hugh Van Voorst Airport,5LL8,41.11230087,-88.14009857
+Williams Field,5MI7,42.36109924,-84.42479706
+Kirkwood Airpark,5N5,42.00040054,-75.7602005
+Hat Field,5N7,43.09719849,-86.09459686
+Salubrious Point Airport,5NK0,44.0442009,-76.14360046
+Tomahawk Hills Airport,5NY1,42.39979935,-74.90630341
+Hanley Field,5Y7,46.354099,-86.621002
+Nelson Private Airport,60IS,38.40060043,-87.98860168
+Shear Airport,63NY,43.2593,-78.9656
+Lee Bottom Airport,64I,38.63119888,-85.44360352
+Maple Grove Airport,65G,42.7173,-84.0625
+Ricks Field,65MN,45.96409988,-96.14980316
+Casa De Aero Park Airport,68IS,42.148605,-88.561965
+Mershon Airport,6IN6,39.5489006,-86.47669983
+Sky Blue Airfield,6MN0,47.055599,-95.423103
+Airwolfe Airport,6WN5,44.49980164,-92.19879913
+Welke Airport,6Y8,45.720503,-85.518866
+Adams Restricted Landing Area Number 1,70LL,40.936926,-88.753739
+Northwoods Airport,72MI,46.28590012,-89.27749634
+Vetterkind Strip,73WI,45.239715,-91.507296
+Reiss Game Farm Airport,75NY,42.11669922,-78.31559753
+Klamar Field,77MN,48.367076,-95.788234
+Pam's Place Airport,78I,39.500801,-86.691902
+Hagens Private Airport,78MN,48.37889862,-95.81169891
+Flying F Airport,78NY,43.081362,-78.779447
+Hartwell Ranch Airport,79IS,39.444221,-90.557719
+Ridge Soaring Gliderport,79N,40.88389969,-77.90720367
+Blue Knob Valley Airport,7PN4,40.396478,-78.453723
+Cody Port RLA Restricted Landing Area,7IL8,41.51890183,-88.83760071
+Jasper County Flying Club Airport,7LL3,38.930605,-88.155928
+Thrall Lake Airport,7MI3,42.118428,-85.510166
+Caldbeck Field,7MN3,43.7052002,-92.46070099
+Willis Airport,7MN8,48.06952,-96.27944
+Raymond L Kussmaul Jr Memorial Airport,7N4,42.077801,-83.986099
+Valley View Airport,7NK0,42.64528,-74.390514
+Charles G. Kalko Airport,7PA3,41.708053,-75.287872
+Backus Municipal Airport,7Y3,46.82690048,-94.50720215
+Landings Condominium Airport,82IS,42.14310074,-88.4029007
+Goodenough Airport,83IN,40.740505,-86.004166
+Milhon Airport,89IN,39.511172,-86.384724
+Maxson Airfield,89NY,44.312002,-75.90034
+Paul C. Miller-Sparta Airport,8D4,43.127399,-85.679199
+Giermek Executive Airport,8G3,42.06869888,-78.40450287
+Nelson Airport,8IS1,39.308265,-89.99289
+Deer Meadows Airstrip,8PA3,40.9958992,-75.7405014
+Heritage Acres Airport,90WI,45.575001,-88.708397
+Brutlag Farms Airport,92MN,46.01440048,-96.10169983
+Bloecher Farm Airport,92NY,42.752936,-78.462124
+Ag Spray Inc Airport,94MN,46.57659912,-96.51200104
+Evad Enterprises LLC Airport,95MI,44.087026,-85.7307415
+Pittsburgh Northeast Airport,9G1,40.603287,-79.826038
+Dillon Airport,9II3,41.5625,-86.47219849
+Cedar Ridge Airport,9IS0,40.54309845,-91.33070374
+Schertz Field,9IS2,40.482878,-88.267529
+Van Sant Airport,9N1,40.483559,-75.10088
+Farmers Pride Airport,9N7,40.442902,-76.441597
+Courtney Plummer Airport,9WN1,44.10689926,-88.68399811
+Voyager Village Airstrip,9WN2,45.96659851,-92.14600372
+Bult Field,C56,41.37760162,-87.68139648
+Lake Lawn Airport,C59,42.634102,-88.601097
+Earlville Airport,C94,41.567001,-88.947899
+Lowell Airport,C97,41.23009872,-87.50769806
+Canandaigua Airport,IUA,42.908902,-77.325226
+Geneseo Airport,D52,42.79869843,-77.84249878
+Gowanda Airport,D59,42.501542,-78.950518
+Mancelona Municipal Airport,D90,44.923913,-85.068884
+Hagerstown Airport,I61,39.8891983,-85.16329956
+Westfield Airport,I72,40.049529,-86.160407
+Noblesville Airport,I80,40.00360107,-85.96469879
+Salem Municipal Airport,I83,38.604253,-86.151042
+Raceway Airport,II32,38.04919815,-87.38140106
+Eickholtz Airport,II33,38.46089935,-87.65499878
+Eby Field,II74,41.559799,-86.053101
+Cooch Landing Area Airport,IL31,39.84329987,-88.45330048
+Aero Acres Airport,IL51,41.038335,-88.334971
+Durflinger Airport,IN29,40.57360077,-87.10359955
+Curless Airport,IS08,40.263939,-90.23453
+Schilson Field,IS51,40.45140076,-91.20379639
+John D Rennick Airport,IS62,40.86729813,-89.45310211
+Perry-Warsaw Airport,01G,42.741453,-78.052646
+Capitol Drive Airport,02C,43.090222,-88.17816
+Hawley Municipal Airport,04Y,46.883801,-96.350304
+Griffith-Merrillville Airport,05C,41.519798,-87.399498
+Schaumburg Regional Airport,06C,41.98929977,-88.10119629
+Riverview Airport,08C,42.935902,-85.805
+Dacy Airport,0C0,42.4025,-88.632401
+Finger Lakes Regional Airport,0G7,42.883598,-76.782246
+Tower Municipal Airport,12D,47.818154,-92.286099
+Le Sueur Municipal Airport,12Y,44.441071,-93.916283
+Lakeview-Airport-Griffith Field,13C,43.452099,-85.264801
+Todd Field,14Y,45.898602,-94.873901
+Perham Municipal Airport,16D,46.610828,-95.60586
+Columbia County Airport,1B1,42.291302,-73.710297
+Paxton Airport,1C1,40.449001,-88.127701
+Bolingbrook's Clow International Airport,1C5,41.69599915,-88.1292038
+Effingham County Memorial Airport,1H2,39.0704,-88.533501
+Casey Municipal Airport,1H8,39.302502,-88.004097
+Kingston-Ulster Airport,20N,41.985298,-73.964104
+Jake Arner Memorial Airport,22N,40.809502,-75.761497
+Grove City Airport,29D,41.146,-80.167702
+Somerset County Airport,2G9,40.039101,-79.014603
+Shelby County Airport,2H0,39.41040039,-88.84539795
+Hendricks County Gordon Graham Field,2R2,39.7481,-86.473801
+Padgham Field,35D,42.53099823,-85.82510376
+Jack Barstow Airport,IKW,43.663054,-84.258606
+Calverton Executive Airpark,3NY8,40.9151,-72.791901
+Lake in the Hills Airport,3CK,42.206799,-88.322998
+James Clements Municipal Airport,3CM,43.5469017,-83.89550018
+Cable Union Airport,3CU,46.194199,-91.246399
+Erie County Airport,3G1,42.044242,-79.85389
+Grygla Municipal Airport - Mel Wilkens Field,3G2,48.293379,-95.626145
+Grand Haven Memorial Airpark,3GM,43.034,-86.198196
+Hobart Sky Ranch Airport,3HO,41.55419922,-87.26249695
+Sky King Airport,3I3,39.547223,-87.378623
+Litchfield Municipal Airport,3LF,39.162498,-89.674599
+Mount Hawley Auxiliary Airport,3MY,40.7953,-89.613403
+Roscommon Conservation Airport,3RC,44.474998,-84.566704
+Boyceville Municipal Airport,3T3,45.043999,-92.020401
+Jerry Tyler Memorial Airport,3TR,41.83589935,-86.22519684
+Beloit Airport,44C,42.497799,-88.967598
+Sky Acres Airport,44N,41.707401,-73.737999
+Brighton Airport,45G,42.569801,-83.778503
+Clare Municipal Airport,48D,43.834499,-84.740196
+Ticonderoga Municipal Airport,4B6,43.8773,-73.413101
+Schroon Lake Airport,4B7,43.857886,-73.740577
+Abrams Municipal Airport,4D0,42.775202,-84.736378
+Hornell Municipal Airport,HTF,42.382139,-77.68211
+Putnam County Airport,GPC,39.632596,-86.813793
+Major Gilbert Field Airport,4R5,46.7887,-90.758698
+Lakes of the North Airport,4Y4,44.912498,-84.876404
+Iron County Airport,50D,46.009102,-88.273903
+Kentland Municipal Airport,50I,40.758733,-87.429457
+Rushford Municipal Airport - Robert W Bunke Field,55Y,43.8158,-91.830101
+East Troy Municipal Airport,57C,42.797199,-88.372597
+Saratoga County Airport,5B2,43.0513,-73.861198
+Nary National Shefland Field,5MN1,47.373603,-94.798781
+Sheridan Airport,5I4,40.177898,-86.2173
+Prentice Airport,5N2,45.538313,-90.275978
+Albert J Lindberg Airport,5Y1,46.035412,-84.417673
+Elroy Municipal Airport,60C,43.70640182,-90.25759888
+Fort Atkinson Municipal Airport,61C,42.9632,-88.817596
+Adams County Legion Field,63C,43.960131,-89.789248
+Skaneateles Aero Drome,6B9,42.914001,-76.440804
+Brooten Municipal Airport,6D1,45.5,-95.1128006
+Greenville Municipal Airport,6D6,43.1423,-85.253799
+Iosco County Airport,6D9,44.312801,-83.422302
+Titusville Airport,6G1,41.608799,-79.741302
+Boone County Airport,6I4,40.007301,-86.440598
+Bois Blanc Airport,6Y1,45.7663,-84.503799
+Sunbury Airport,71N,40.89179993,-76.77890015
+Lancaster Municipal Airport,73C,42.780499,-90.681
+Marine City Airport,76G,42.721247,-82.596406
+Marlette Township Airport,77G,43.311798,-83.090897
+Baldwin Municipal Airport,7D3,43.8755,-85.842102
+Ledgedale Airpark,7G0,43.181099,-77.915802
+Orleans Airport,7I4,38.65840149,-86.44300079
+Post-Air Airport,7L8,39.75,-86.01390076
+Corning Painted Post Airport,7N1,42.1759,-77.112198
+Bagley Municipal Airport,7Y4,47.52500153,-95.3608017
+Mauston New Lisbon Union Airport,82C,43.838699,-90.137703
+Mackinac County Airport,83D,45.891701,-84.738098
+New Holstein Municipal Airport,8D1,43.944199,-88.113503
+Corry Lawrence Airport,8G2,41.9076,-79.641098
+Eagle II Airport,88MI,44.806499,-84.276199
+Skydive Chicago Airport,8N2,41.399799,-88.7939
+Leaders Clear Lake Airport,8Y6,45.443693,-93.970343
+Richland Airport,93C,43.283401,-90.298302
+Evart Municipal Airport,9C8,43.895901,-85.279198
+Deck Airport,9D4,40.351799,-76.329597
+Hastings Airport,9D9,42.663601,-85.346298
+Prices Airport,9G2,42.807598,-83.769897
+Akron Airport/Jesson Field,9G3,43.021099,-78.482498
+Ebensburg Airport,9G8,40.461201,-78.7752
+Logan County Airport,AAA,40.158699,-89.334999
+Lehigh Valley International Airport,ABE,40.651773,-75.442797
+Antrim County Airport,ACB,44.988602,-85.198402
+Waseca Municipal Airport,ACQ,44.073502,-93.552902
+Wadena Municipal Airport,ADC,46.450298,-95.210999
+Lenawee County Airport,ADG,41.866205,-84.077983
+Albert Lea Municipal Airport,AEL,43.68149948,-93.36720276
+Washington County Airport,AFJ,40.136501,-80.290199
+Allegheny County Airport,AGC,40.354401,-79.930199
+Amery Municipal Airport,AHH,45.28110123,-92.37539673
+Anderson Municipal Darlington Field,AID,40.10860062,-85.61299896
+Langlade County Airport,AIG,45.154202,-89.110703
+Aitkin Municipal Airport Steve Kurtz Field,AIT,46.548401,-93.676804
+Mount Carmel Municipal Airport,AJG,38.606499,-87.7267
+Albany International Airport,ALB,42.74829865,-73.80169678
+St Louis Regional Airport,ALN,38.89030075,-90.04599762
+Gratiot Community Airport,AMN,43.32210159,-84.68800354
+Anoka County-Blaine (Janes Field) Airport,ANE,45.145,-93.211401
+Sault Ste Marie Municipal Airport Sanderson Field,ANJ,46.479198,-84.368401
+Tri State Steuben County Airport,ANQ,41.639702,-85.083504
+Altoona Blair County Airport,AOO,40.296398,-78.32
+Alpena County Regional Airport,APN,45.0780983,-83.56030273
+Appleton Municipal Airport,AQP,45.228239,-96.005856
+Ann Arbor Municipal Airport,ARB,42.22299957,-83.74559784
+Aurora Municipal Airport,ARR,41.77190018,-88.47570038
+Watertown International Airport,ART,43.991901,-76.021698
+Lakeland Airport Noble F Lee Memorial Field,ARV,45.927898,-89.730904
+Warsaw Municipal Airport,ASW,41.2747,-85.840103
+John F Kennedy Memorial Airport,ASX,46.54850006,-90.91899872
+Appleton International Airport,ATW,44.258099,-88.519096
+Austin Municipal Airport,AUM,43.66500092,-92.93340302
+Wausau Downtown Airport,AUW,44.92620087,-89.62660217
+Wilkes Barre Scranton International Airport,AVP,41.33850098,-75.7233963
+Chandler Field,AXN,45.866299,-95.394699
+Clarion County Airport,AXQ,41.2258,-79.441002
+Kalamazoo Battle Creek International Airport,AZO,42.23490143,-85.55210114
+Whitfords Airport,B16,43.080299,-76.538399
+Columbus Municipal Airport,BAK,39.262386,-85.895576
+Huron County Memorial Airport,BAX,43.780201,-82.985397
+Benson Municipal Airport,BBB,45.331902,-95.650597
+Black River Falls Area Airport,BCK,44.250702,-90.855301
+Baudette International Airport,BDE,48.72840118,-94.61219788
+Willmar Municipal Airport John L Rice Field (2006),BDH,45.117552,-95.132259
+Boulder Junction Payzer Airport,BDJ,46.13740158,-89.64600372
+Southwest Michigan Regional Airport,BEH,42.12860107,-86.42849731
+Boyne Mountain Airport,BFA,45.165798,-84.924103
+Bradford Regional Airport,BFD,41.80310059,-78.64009857
+Virgil I Grissom Municipal Airport,BFR,38.84000015,-86.44539642
+Greater Binghamton/Edwin A Link field,BGM,42.20869827,-75.97979736
+West Michigan Regional Airport,BIV,42.742901,-86.107399
+Bemidji Regional Airport,BJI,47.50939941,-94.93370056
+Scott AFB/Midamerica Airport,BLV,38.5452,-89.835197
+Monroe County Airport,BMG,39.14599991,-86.61669922
+Central Illinois Regional Airport at Bloomington-Normal,BMI,40.4771,-88.915901
+Buffalo Lancaster Regional Airport,BQR,42.922298,-78.612297
+Brainerd Lakes Regional Airport,BRD,46.402861,-94.129727
+Battle Creek Executive Airport at Kellogg Field,BTL,42.307301,-85.251503
+Pittsburgh/Butler Regional Airport,BTP,40.776901,-79.949699
+Burlington Municipal Airport,BUU,42.69070053,-88.30460358
+Beaver County Airport,BVI,40.772499,-80.391403
+Grand Geneva Resort Airport,C02,42.614899,-88.389603
+Nappanee Municipal Airport,C03,41.44620132,-85.93479919
+Oceana County Airport,C04,43.641701,-86.329201
+Morris Municipal Airport James R. Washburn field,C09,41.4254,-88.418701
+Pekin Municipal Airport,C15,40.488201,-89.675903
+Frasca Field,C16,40.1464,-88.198502
+Andrews University Airpark,C20,41.951698,-86.367699
+Middleton Municipal Morey Field,C29,43.1143,-89.531502
+Reedsburg Municipal Airport,C35,43.525902,-89.9832
+Portage Municipal Airport,C47,43.560299,-89.482903
+Kendallville Municipal Airport,C62,41.472698,-85.260803
+Plymouth Municipal Airport,C65,41.36510086,-86.30049896
+Dixon Municipal Charles R. Walgreen Field,C73,41.833875,-89.443967
+Cassville Municipal Airport,C74,42.70420074,-90.96459961
+Marshall County Airport,C75,41.018391,-89.385865
+Poplar Grove Airport,C77,42.322899,-88.836304
+Campbell Airport,C81,42.32460022,-88.07409668
+Dowagiac Municipal Airport,C91,41.992901,-86.127998
+Wexford County Airport,CAD,44.275749,-85.421534
+Cambridge Municipal Airport,CBG,45.557499,-93.264198
+Mettel Field,CEV,39.69850159,-85.12969971
+Buffalo Municipal Airport,CFE,45.159,-93.8433
+Crawfordsville Regional Airport,CFJ,39.975602,-86.919899
+Tuscola Area Airport,CFS,43.458801,-83.445503
+Houston County Airport,CHU,43.596401,-91.503899
+Cairo Regional Airport,CIR,37.064499,-89.219597
+Chippewa County International Airport,CIU,46.247707,-84.471379
+Grand Marais Cook County Airport,CKC,47.8382988,-90.38289642
+Crookston Municipal Kirkwood Field,CKN,47.84170151,-96.62159729
+Pennridge Airport,CKZ,40.3891983,-75.29049683
+Clintonville Municipal Airport,CLI,44.61380005,-88.73130035
+University of Illinois Willard Airport,CMI,40.039819,-88.276249
+Houghton County Memorial Airport,CMX,47.16839981,-88.4890976
+Sparta Fort McCoy Airport,CMY,43.958009,-90.737886
+Myers Field Airport,CNB,44.7295,-96.265999
+Cloquet Carlton County Airport,COQ,46.701099,-92.503601
+St Louis Downtown Airport,CPS,38.5707016,-90.15619659
+Cook Municipal Airport,CQM,47.821899,-92.6894
+Ingersoll Airport,CTK,40.56909943,-90.07479858
+Carmi Municipal Airport,CUL,38.0895,-88.1231
+Charlevoix Municipal Airport,CVX,45.304798,-85.274803
+Central Wisconsin Airport,CWA,44.777448,-89.670238
+Capital City Airport,CXY,40.21709824,-76.85150146
+Tri Cities Airport,CZG,42.078499,-76.096296
+Norman County Ada/Twin Valley Airport,D00,47.260502,-96.400299
+Ojibwa Airpark,D11,43.720001,-85.0028
+Fertile Municipal Airport,D14,47.551899,-96.291901
+Arcade Tri County Airport,D23,42.565367,-78.424766
+Manitowish Waters Airport,D25,46.122002,-89.882301
+Warren Municipal Airport,D37,48.191541,-96.711912
+Sauk Centre Municipal Airport,D39,45.70660019,-94.93340302
+Springfield Municipal Airport,D42,44.231098,-94.998901
+Dupont-Lapeer Airport,D95,43.066601,-83.272301
+Romeo State Airport,D98,42.79610062,-82.97499847
+Daviess County Airport,DCY,38.700401,-87.1297
+Decatur Airport,DEC,39.83459854,-88.86569977
+Coleman A. Young Municipal Airport,DET,42.40919876,-83.00990295
+DeKalb Taylor Municipal Airport,DKB,41.936316,-88.704128
+Chautauqua County-Dunkirk Airport,DKK,42.49247,-79.273102
+Duluth International Airport,DLH,46.842098,-92.193604
+Baraboo Wisconsin Dells Regional Airport,DLL,43.522701,-89.770203
+Vermilion Regional Airport,DNV,40.199124,-87.59663
+Dupage Airport,DPA,41.90779877,-88.24859619
+Drummond Island Airport,DRM,46.00930023,-83.74389648
+Dansville Municipal Airport,DSV,42.570545,-77.713273
+Detroit Lakes Airport,DTL,46.824301,-95.883322
+Toledo Suburban Airport,DUH,41.73590088,-83.65540314
+DuBois Regional Airport,DUJ,41.17829895,-78.8986969
+Lac Qui Parle County Airport,DXX,44.986198,-96.177696
+Doylestown Airport,DYL,40.33300018,-75.12229919
+Sky Harbor Airport,DYT,46.721901,-92.043404
+Chippewa Valley Regional Airport,EAU,44.86579895,-91.48429871
+Monroe Municipal Airport,EFT,42.614899,-89.590401
+Eagle River Union Airport,EGV,45.93230057,-89.26830292
+Elkhart Municipal Airport,EKM,41.7193985,-86.00319672
+Elmira Corning Regional Airport,ELM,42.15990067,-76.89160156
+Ely Municipal Airport,ELO,47.82450104,-91.83070374
+Wellsville Municipal Airport - Tarantine Field,ELZ,42.109501,-77.989998
+Centralia Municipal Airport,ENL,38.515099,-89.091103
+Kenosha Regional Airport,ENW,42.59569931,-87.92780304
+Erie International Tom Ridge Field,ERI,42.083127,-80.173867
+Luce County Airport,ERY,46.311199,-85.457298
+Delta County Airport,ESC,45.723199,-87.088623
+West Bend Municipal Airport,ETB,43.422278,-88.128966
+Wheaton Municipal Airport,ETH,45.782058,-96.543627
+Eveleth–Virginia Municipal Airport,EVM,47.42458,-92.499204
+Evansville Regional Airport,EVV,38.03699875,-87.53240204
+Eagle Creek Airpark,EYE,39.83069992,-86.29440308
+Kewanee Municipal Airport,EZI,41.2052,-89.963898
+Shawano Municipal Airport,EZS,44.787514,-88.560481
+Faribault Municipal Airport-Liz Wall Strohfus Field,FBL,44.32844,-93.312534
+Flying Cloud Airport,FCM,44.82720184,-93.45709991
+Albertus Airport,FEP,42.24620056,-89.58200073
+Fergus Falls Municipal Airport - Einar Mickelson Field,FFM,46.28440094,-96.15670013
+Fremont Municipal Airport,FFX,43.436854,-85.996592
+Clearfield Lawrence Airport,FIG,41.049032,-78.415003
+Fillmore County Airport,FKA,43.6768,-92.179703
+Venango Regional Airport,FKL,41.37789917,-79.86039734
+Frankfort Clinton County Regional Airport,FKR,40.273399,-86.562202
+Frankfort Dow Memorial Field,FKS,44.625198,-86.200798
+Fond du Lac County Airport,FLD,43.77119827,-88.48840332
+Bishop International Airport,FNT,42.9654007,-83.74359894
+Flora Municipal Airport,FOA,38.66490173,-88.45300293
+Francis S Gabreski Airport,FOK,40.84370041,-72.63179779
+Bigfork Municipal Airport,FOZ,47.783865,-93.65098
+Fitch H Beach Airport,FPK,42.574501,-84.811401
+Republic Airport,FRG,40.72880173,-73.41339874
+French Lick Municipal Airport,FRH,38.50619888,-86.63690186
+Fairmont Municipal Airport,FRM,43.64390183,-94.41560364
+Fosston Municipal Airport-Anderson Field,FSE,47.5928,-95.773499
+Fort Wayne International Airport,FWA,40.9785,-85.195099
+Fairfield Municipal Airport,FWC,38.378601,-88.412697
+Rostraver Airport,FWQ,40.209702,-79.831398
+Oswego County Airport,FZY,43.3508,-76.3881
+Galesburg Municipal Airport,GBG,40.93799973,-90.43109894
+Granite Falls Municipal Airport / Lenzen-Roe Memorial Field,GDB,44.7533,-95.556
+Gladwin Zettel Memorial Airport,GDW,43.97060013,-84.47499847
+Shelbyville Municipal Airport,GEZ,39.586044,-85.804024
+Floyd Bennett Memorial Airport,GFL,43.34120178,-73.61029816
+Logansport Cass County Airport,GGP,40.711201,-86.374901
+Glenwood Municipal Airport,GHW,45.64390182,-95.32039642
+Port Meadville Airport,GKJ,41.626499,-80.214699
+Gaylord Regional Airport,GLR,45.01350021,-84.70359802
+Grayling Army Air Field,GOV,44.680302,-84.728897
+Grand Rapids Itasca Co-Gordon Newstrom field,GPZ,47.21110153,-93.50980377
+Austin Straubel International Airport,GRB,44.483459,-88.130805
+Greenville Airport,GRE,38.836844,-89.376525
+Gerald R. Ford International Airport,GRR,42.88079834,-85.52279663
+Goshen Municipal Airport,GSH,41.52640152,-85.79290009
+Wheeler Sack Army Air Field,GTB,44.05559921,-75.71949768
+Grantsburg Municipal Airport,GTG,45.79809952,-92.66439819
+Grissom Air Reserve Base,GUS,40.648102,-86.1521
+Genesee County Airport,GVQ,43.0317,-78.167603
+De Kalb County Airport,GWB,41.307201,-85.0644
+Glencoe Municipal Airport,GYL,44.756001,-94.0812
+Gary Chicago International Airport,GYY,41.61629868,-87.41280365
+Benton Municipal Airport,H96,38.006699,-88.934402
+Three Rivers Municipal Dr Haines Airport,HAI,41.959801,-85.593399
+Hutchinson Municipal Butler Field,HCD,44.859901,-94.3825
+Hallock Municipal Airport,HCO,48.752701,-96.943001
+Indy South Greenwood Airport,HFY,39.628399,-86.087898
+Huntington Municipal Airport,HHG,40.852901,-85.4571
+Range Regional Airport,HIB,47.384831,-92.836905
+Batesville Airport,HLB,39.342861,-85.258441
+Bedford County Airport,HMZ,40.085952,-78.513359
+Huntingburg Airport,HNB,38.24900055,-86.9536972
+Westchester County Airport,HPN,41.06700134,-73.70760345
+Harrisburg-Raleigh Airport,HSB,37.811298,-88.550301
+Roscommon County - Blodgett Memorial Airport,HTL,44.359798,-84.671095
+Town of East Hampton Airport,JPX,40.959954,-72.25105
+"Terre Haute Regional Airport, Hulman Field",HUF,39.4515,-87.307602
+Brookhaven Calabro Airport,HWV,40.821899,-72.8694
+Hartford Municipal Airport,HXF,43.3493,-88.391098
+Sawyer County Airport,HYR,46.02519989,-91.44429779
+Saginaw County H.W. Browne Airport,HYX,43.433399,-83.862297
+Hazleton Municipal Airport,HZL,40.98680115,-75.99490356
+Isedor Iverson Airport,HZX,46.61880112,-93.30979919
+Randolph County Airport,I22,40.1689,-84.925697
+Greensburg Municipal Airport,I34,39.32690048,-85.52249908
+Mount Sterling Municipal Airport,I63,39.987499,-90.804199
+Peru Municipal Airport,I76,40.786301,-86.1464
+Niagara Falls International Airport,IAG,43.1073,-78.946198
+Indiana County–Jimmy Stewart Airport,IDI,40.631119,-79.101884
+Lansing Municipal Airport,IGQ,41.534901,-87.529503
+Jacksonville Municipal Airport,IJX,39.774601,-90.238297
+Greater Kankakee Airport,IKK,41.07139969,-87.84629822
+Madison Municipal Airport,IMS,38.75889969,-85.46549988
+Ford Airport,IMT,45.81911,-88.114557
+Falls International Airport,INL,48.56620026,-93.40309906
+Williamsport Regional Airport,IPT,41.242126,-76.92245
+Kirsch Municipal Airport,IRS,41.813301,-85.439003
+Long Island Mac Arthur Airport,ISP,40.79520035,-73.10019684
+Schoolcraft County Airport,ISQ,45.974602,-86.171799
+Alexander Field South Wood County Airport,ISW,44.36029816,-89.83899689
+Ithaca Tompkins Regional Airport,ITH,42.49100113,-76.45839691
+Gogebic Iron County Airport,IWD,46.525298,-90.131578
+Wabash Municipal Airport,IWH,40.762991,-85.799747
+Chautauqua County-Jamestown Airport,JHW,42.15425,-79.254008
+Moorhead Municipal Airport,JKJ,46.83917,-96.663703
+Mora Municipal Airport,JMR,45.886101,-93.271796
+Joliet Regional Airport,JOT,41.51779938,-88.17549896
+John Murtha Johnstown Cambria County Airport,JST,40.31610107,-78.83390045
+Southern Wisconsin Regional Airport,JVL,42.62030029,-89.04160309
+Clark Regional Airport,JVY,38.365398,-85.738197
+Jackson County Airport/Reynolds Field,JXN,42.260509,-84.463019
+St James Municipal Airport,JYG,43.986301,-94.557899
+Hillsdale Municipal Airport,JYM,41.92129898,-84.58580017
+Greater Beardstown Airport,K06,39.9734,-90.403702
+Piseco Airport,K09,43.45339966,-74.51760101
+Becks Grove Airport,K16,43.250334,-75.606194
+Purdue University Airport,LAF,40.412875,-86.939363
+Capital City Airport,LAN,42.77870178,-84.58740234
+Arnold Palmer Regional Airport,LBE,40.275902,-79.4048
+Mason County Airport,LDM,43.96250153,-86.40789795
+William T. Piper Memorial Airport,LHV,41.13560104,-77.42230225
+Litchfield Municipal Airport,LJF,45.097099,-94.507301
+Lake Placid Airport,LKP,44.26449966,-73.9618988
+Kings Land O' Lakes Airport,LNL,46.153999,-89.212097
+Tri-County Regional Airport,LNR,43.2099,-90.181332
+Lancaster Airport,LNS,40.12170029,-76.2960968
+Wings Field,LOM,40.13750076,-75.26509857
+Lewis University Airport,LOT,41.6072998,-88.09619904
+La Crosse Regional Airport,LSE,43.879002,-91.256699
+Menomonie Municipal Score Field,LUM,44.8923,-91.867897
+Airlake Airport,LVN,44.627899,-93.228104
+South Haven Area Regional Airport,LWA,42.3512,-86.255699
+Lawrenceville Vincennes International Airport,LWV,38.7643013,-87.60549927
+Little Falls-Morrison County-Lindbergh field,LXL,45.949699,-94.347397
+Quentin Aanenson Airfield - Luverne Municipal Airport,LYV,43.616217,-96.217946
+Metropolis Municipal Airport,M30,37.182382,-88.750688
+Malone Dufort Airport,MAL,44.853699,-74.328903
+Manistee County Blacker Airport,MBL,44.272707,-86.246495
+MBS International Airport,MBS,43.531913,-84.082275
+Mackinac Island Airport,MCD,45.86489868,-84.63729858
+White County Airport,MCX,40.708801,-86.7668
+Southern Illinois Airport,MDH,37.778099,-89.251999
+Harrisburg International Airport,MDT,40.193501,-76.763397
+Taylor County Airport,MDZ,45.10100174,-90.30329895
+Marshfield Municipal Airport,MFI,44.63690186,-90.18930054
+Michigan City Municipal Airport,MGC,41.70330048,-86.82119751
+Orange County Airport,MGJ,41.50999832,-74.26460266
+Harbor Springs Airport,MGN,45.42559814,-84.91339874
+Crystal Airport,MIC,45.062,-93.353897
+Delaware County Johnson Field,MIE,40.242298,-85.395897
+Jackson Municipal Airport,MJQ,43.650002,-94.986504
+Muskegon County Airport,MKG,43.169498,-86.238197
+Mankato Regional Airport,MKT,44.224781,-93.919128
+Quad City International Airport,MLI,41.448502,-90.5075
+Southwest Minnesota Regional Airport - Marshall/Ryan Field,MML,44.45050049,-95.82189941
+Menominee–Marinette Twin County Airport,MNM,45.126701,-87.638397
+Mount Pleasant Municipal Airport,MOP,43.6217,-84.737503
+Morris Municipal Airport Charlie Schmidt Field,MOX,45.566002,-95.967201
+Pocono Mountains Municipal Airport,MPO,41.136025,-75.379572
+Macomb Municipal Airport,MQB,40.52009964,-90.65239716
+Indianapolis Regional Airport,MQJ,39.843498,-85.8971
+Chester County G O Carlson Airport,MQS,39.97900009,-75.8655014
+Iowa County Airport,MRJ,42.886799,-90.236198
+Dane County Regional Truax Field,MSN,43.1399,-89.337502
+Massena International Airport Richards Field,MSS,44.936157,-74.844304
+Sullivan County International Airport,MSV,41.701596,-74.794997
+Selfridge Air National Guard Base Airport,MTC,42.613463,-82.836919
+Coles County Memorial Airport,MTO,39.477901,-88.279198
+Montauk Airport,MTP,41.0765,-71.920797
+Manitowoc County Airport,MTW,44.127116,-87.681983
+Muir Army Air Field (Fort Indiantown Gap) Airport,MUI,40.435214,-76.568661
+Montevideo Chippewa County Airport,MVE,44.969101,-95.710297
+Mount Vernon Outland Airport,MVN,38.322774,-88.859257
+Veterans Airport of Southern Illinois,MWA,37.751208,-89.016568
+Lawrence J Timmerman Airport,MWC,43.110401,-88.034401
+Windom Municipal Airport,MWM,43.913399,-95.109398
+Moose Lake Carlton County Airport,MZH,46.41880035,-92.80470276
+Marion Municipal Airport,MZZ,40.48989868,-85.67970276
+Cortland County Chase Field,N03,42.59260178,-76.21489716
+Bloomsburg Municipal Airport,N13,40.997676,-76.435256
+Sidney Municipal Airport,N23,42.30260086,-75.41600037
+Bradford County Airport,N27,41.740002,-76.447098
+Punxsutawney Municipal Airport,N35,40.966702,-78.93
+Grand Canyon Regional Airport,N38,41.727901,-77.3965
+New Garden Airport,N57,39.83050156,-75.7696991
+Albert S Nader Regional Airport,N66,42.5247,-75.0644
+Franklin County Regional Airport,N68,39.973099,-77.643303
+Donegal Springs Airpark,N71,40.09220123,-76.57440186
+Northumberland County Airport,N79,40.836899,-76.552498
+Wurtsboro-Sullivan County Airport,N82,41.597991,-74.459467
+Joseph Y Resnick Airport,N89,41.728773,-74.376923
+Carlisle Airport,N94,40.187901,-77.174301
+Bellefonte Airport,N96,40.885502,-77.816299
+Boyne City Municipal Airport,N98,45.208302,-84.990303
+Fulton County Airport,NY0,42.998199,-74.329597
+Camillus Airport,NY25,43.085376,-76.295199
+J. Douglas Bake Memorial Airport,OCQ,44.874286,-87.91171
+O'Neal Airport,OEA,38.68521,-87.543138
+Branch County Memorial Airport,OEB,41.933399,-85.052597
+L O Simenstad Municipal Airport,OEO,45.31000137,-92.69190216
+Ontonagon County Schuster Field,OGM,46.845501,-89.367104
+Ogdensburg International Airport,OGS,44.6819,-75.4655
+Lt Warren Eaton Airport,OIC,42.5666008,-75.52410126
+Kokomo Municipal Airport,OKK,40.52819824,-86.05899811
+Cattaraugus County-Olean Airport,OLE,42.241199,-78.371399
+Solon Springs Municipal Airport,OLG,46.3148,-91.816399
+Olney Noble Airport,OLY,38.721802,-88.176399
+Winona Municipal Airport Max Conrad Field,ONA,44.077202,-91.708298
+Grosse Ile Municipal Airport,ONZ,42.099098,-83.161499
+Brandywine Regional Airport,OQN,39.990101,-75.581902
+Orr Regional Airport,ORB,48.0159,-92.856102
+Oscoda Wurtsmith Airport,OSC,44.451599,-83.394096
+Wittman Regional Airport,OSH,43.9844017,-88.55699921
+Worthington Municipal Airport,OTG,43.65477,-95.577364
+Olivia Regional Airport,OVL,44.778599,-95.032799
+North Vernon Airport,OVO,39.045601,-85.605301
+Boscobel Airport,OVS,43.160198,-90.675499
+Owatonna Degner Regional Airport,OWA,44.123402,-93.260597
+Starke County Airport,OXI,41.330098,-86.662302
+St Marys Municipal Airport,OYM,41.41249847,-78.50260162
+Livingston County Spencer J. Hardy Airport,OZW,42.62919998,-83.98210144
+Plattsburgh International Airport,PBG,44.65090179,-73.4681015
+Price County Airport,PBH,45.709,-90.402496
+Waupaca Municipal Airport,PCZ,44.333302,-89.019798
+Prairie Du Chien Municipal Airport,PDC,43.01929855,-91.123703
+Penn Yan Airport,PEO,42.6371,-77.052902
+Paynesville Municipal Airport,PEX,45.372061,-94.744742
+St Clair County International Airport,PHN,42.9109993,-82.52890015
+General Wayne A. Downing Peoria International Airport,PIA,40.6642,-89.693298
+Zelienople Municipal Airport,PJC,40.801601,-80.160698
+Pinckneyville Du Quoin Airport,PJY,37.977901,-89.360497
+Park Rapids Municipal Airport Konshok Field,PKD,46.9006,-95.073095
+Park Falls Municipal Airport,PKF,45.95500183,-90.42440033
+Portland Municipal Airport,PLD,40.450802,-84.990097
+Pellston Regional Airport of Emmet County Airport,PLN,45.57089996,-84.79669952
+Northeast Philadelphia Airport,PNE,40.082406,-75.010614
+Princeton Municipal Airport,PNM,45.559898,-93.6082
+Pontiac Municipal Airport,PNT,40.924255,-88.62447
+Dutchess County Airport,POU,41.62659836,-73.88420105
+La Porte Municipal Airport,PPO,41.57249832,-86.73449707
+Pittsfield Penstone Municipal Airport,PPQ,39.638901,-90.778397
+Pipestone Municipal Airport,PQN,43.983299,-96.300301
+Edgar County Airport,PRG,39.700199,-87.669601
+Mid-State Regional Airport,PSB,40.884399,-78.087303
+Potsdam Municipal Airport Damon Field,PTD,44.67657,-74.948583
+Oakland County International Airport,PTK,42.66550064,-83.42009735
+Heritage Field,PTW,40.239601,-75.556702
+Platteville Municipal Airport,PVB,42.6894,-90.444397
+Pine River Regional Airport,PWC,46.72480011,-94.38169861
+Chicago Executive Airport,PWK,42.114222,-87.901494
+Presque Isle County Airport,PZQ,45.407101,-83.812897
+John H Batten Airport,RAC,42.76060104,-87.81520081
+Fulton County Airport,RCR,41.06560135,-86.18170166
+Nartron Field,RCT,43.90000153,-85.51670074
+Rusk County Airport,RCX,45.496799,-91.000504
+Reading Regional Airport (Carl A Spaatz Field),RDG,40.378502,-75.965202
+Chicago Rockford International Airport,RFD,42.1954,-89.097198
+Red Wing Regional Airport,RGK,44.589401,-92.485001
+Rhinelander Oneida County Airport,RHI,45.63119888,-89.46749878
+Richmond Municipal Airport,RID,39.757198,-84.842796
+Griffiss International Airport,RME,43.23379898,-75.40699768
+Brooks Field,RMY,42.251202,-84.955498
+New Richmond Regional Airport,RNH,45.1483,-92.538101
+Owosso Community Airport,RNP,42.99300003,-84.13890076
+Frederick Douglass Greater Rochester International Airport,ROC,43.1189,-77.672401
+Rush City Regional Airport,ROS,45.698002,-92.953003
+Roseau Municipal Rudy Billberg Field,ROX,48.855999,-95.696999
+Rice Lake Regional Airport - Carl's Field,RPD,45.423024,-91.773127
+Rochelle Municipal Airport - Koritz Field,RPJ,41.893002,-89.0783
+Roben Hood Airport,RQB,43.72259903,-85.50409698
+Merrill Municipal Airport,RRL,45.19889832,-89.71289825
+Warroad International Memorial Airport,RRT,48.94139862,-95.3483963
+Rochester International Airport,RST,43.908298,-92.5
+Robinson Municipal Airport,RSV,39.015999,-87.649803
+Mifflin County Airport,RVL,40.67739868,-77.62680054
+Redwood Falls Municipal Airport,RWF,44.547199,-95.082298
+Arens Field,RWN,41.092209,-86.613357
+Ray S Miller Army Air Field,RYM,46.091202,-94.360497
+Watertown Municipal Airport,RYV,43.169601,-88.723198
+Jasper County Airport,RZL,40.94789886,-87.18260193
+Burnett County Airport,RZN,45.822701,-92.372498
+Sparta Community Airport - Hunter Field,SAR,38.148899,-89.6987
+Marquette/Sawyer International Airport,SAW,46.3536,-87.395401
+Staples Municipal Airport,SAZ,46.380901,-94.806602
+Sheboygan County Memorial Airport,SBM,43.76959991,-87.85140228
+South Bend Regional Airport,SBN,41.708698,-86.317299
+Blue Earth Municipal Airport,SBU,43.595299,-94.092796
+Schenectady County Airport,SCH,42.85250092,-73.92890167
+Williamson Sodus Airport,SDC,43.234573,-77.119403
+Penn Valley Airport,SEG,40.8205986,-76.86389923
+Freeman Municipal Airport,SER,38.92359924,-85.90740204
+Tri Township Airport,SFY,42.045799,-90.107903
+South St Paul Municipal Airport/Richard E Fleming Field,SGS,44.857101,-93.032898
+Sullivan County Airport,SIV,39.1147,-87.448303
+Beaver Island Airport,SJX,45.692299,-85.566597
+Cheboygan County Airport,SLH,45.653702,-84.519302
+Adirondack Regional Airport,SLK,44.38691,-74.204629
+Salem–Leckrone Airport,SLO,38.642899,-88.964203
+Smith Field,SMD,41.14339828,-85.15280151
+Abraham Lincoln Capital Airport,SPI,39.844101,-89.677902
+Whiteside County Airport - Joseph H Bittorf Field,SQI,41.742175,-89.673629
+Shell Lake Municipal Airport,SSQ,45.7314,-91.9207
+Saint Cloud Regional Airport,STC,45.5466,-94.059898
+Stevens Point Municipal Airport,STE,44.54520035,-89.53029633
+Saint Paul Downtown Holman Field,STP,44.93479,-93.060036
+Door County Cherryland Airport,SUE,44.84370041,-87.42150116
+Richard I Bong Memorial Airport,SUW,46.688612,-92.095041
+New York Stewart International Airport,SWF,41.504101,-74.104797
+Taylorville Municipal Airport,TAZ,39.534199,-89.327797
+Perry County Municipal Airport,TEL,38.0177,-86.690903
+Mason Jewett Field,TEW,42.5658,-84.423203
+York Airport,THV,39.917,-76.873001
+Rantoul National Aviation Center - Frank Elliot field,TIP,40.293598,-88.142403
+Tracy Municipal Airport,TKC,44.2491,-95.6073
+Tomahawk Regional Airport,TKV,45.469101,-89.805702
+Dodge Center Airport,TOB,44.018002,-92.831497
+Custer Airport,TTF,41.939899,-83.4347
+Cherry Capital Airport,TVC,44.74140167,-85.5821991
+Thief River Falls Regional Airport,TVF,48.065701,-96.184998
+Richard B Helgeson Airport,TWM,47.04919815,-91.74510193
+Indianapolis Executive Airport,TYQ,40.030701,-86.251404
+Cumberland Municipal Airport,UBE,45.505969,-91.98012
+New Castle Municipal Airport,UCP,41.02529907,-80.41339874
+Waukesha County Airport,UES,43.04100037,-88.23709869
+Waukegan National Airport,UGN,42.42219925,-87.86789703
+Quincy Regional Airport Baldwin Field,UIN,39.942699,-91.194603
+Quakertown Airport,UKT,40.4352,-75.381897
+New Ulm Municipal Airport,ULM,44.31959915,-94.50229645
+Indianapolis Metropolitan Airport,UMP,39.9352,-86.044998
+Dodge County Airport,UNU,43.42660141,-88.70320129
+State College Regional Airport,UNV,40.849374,-77.84852
+New Castle-Henry County Municipal Airport,UWL,39.8759,-85.3265
+Hamilton Municipal Airport,VGC,42.8438,-75.561401
+Neillsville Municipal Airport,VIQ,44.558102,-90.512199
+Vandalia Municipal Airport,VLA,38.991501,-89.166199
+Oakland Troy Airport,VLL,42.5429,-83.177902
+Volk Field,VOK,43.93899918,-90.25340271
+Porter County Municipal Airport,VPZ,41.45399857,-87.00710297
+Joseph A. Hardy Connellsville Airport,VVS,39.960872,-79.657745
+Ortonville Municipal Airport/Martinson Field,VVV,45.305698,-96.4244
+Waskish Municipal Airport,VWU,48.15409851,-94.51689911
+Illinois Valley Regional Airport Walter A Duncan Field,VYS,41.351898,-89.153099
+Gettysburg Regional Airport,W05,39.841222,-77.274699
+Greene County Airport,WAY,39.90112,-80.130733
+Wilkes Barre Wyoming Valley Airport,WBW,41.29719925,-75.85119629
+Allentown Queen City Municipal Airport,XLL,40.570105,-75.486763
+Longville Municipal Airport,XVG,46.9902,-94.204002
+Chetek Municipal Southworth Airport,Y23,45.306198,-91.6362
+West Branch Community Airport,Y31,44.244801,-84.179802
+Oakland Southwest Airport,Y47,42.503101,-83.623703
+Wautoma Municipal Airport,Y50,44.041599,-89.304497
+Viroqua Municipal Airport,Y51,43.5801,-90.900196
+Crandon Municipal Airport,Y55,45.522102,-88.925087
+Campbell-Pratt Airport,Y65,45.406239,-84.599115
+Ionia County Airport,Y70,42.938,-85.060501
+Bloyer Field,Y72,43.974998,-90.483498
+Sandusky City Airport,Y83,43.457039,-82.841018
+Kalkaska City Airport,Y89,44.725201,-85.203102
+Atlanta Municipal Airport,Y93,44.996916,-84.126692
+East Jordan City Airport,Y94,45.130953,-85.107822
+Hillman Airport,Y95,45.083208,-83.938785
+Willow Run Airport,YIP,42.23789978,-83.53040314
+Ottawa Executive Airport,Z98,42.8172,-85.928101
+Schuylkill County Joe Zerbey Airport,ZER,40.706501,-76.3731
+Latham Park Aero Estates Airport,LL81,42.375,-89.070099
+Robco Airport,MN12,47.199617,-94.7499
+Sky Park Airport,MN67,44.659698,-93.518303
+Maple Airport,MN69,45.00270081,-93.67189789
+Sky Manor Aero Estates Airport,MN86,47.042991,-95.115826
+Aerovilla Airport,MN89,46.62421,-95.643969
+Cloverleaf-East Bemidji Airport,MY54,47.438301,-94.812202
+B I R Airport,MY55,46.41970062,-94.27529907
+Robertson Field,MY56,47.25239944,-92.85939789
+North Star Ranch Airport,MY66,46.07049942,-93.84719849
+Al's Due North Airport,MY90,45.481845,-92.988545
+Johnston Airport,MY99,46.85749817,-96.23519897
+Centre Airpark,N16,40.810951,-77.658019
+Great Valley Airport,N56,42.205101,-78.647202
+Cambria Airport,NK25,43.194157,-78.799381
+Old Forge Airport,NK26,43.725183,-74.976217
+Match Mate Airport,NK74,42.74449921,-76.66359711
+Hogan Airport,NY05,42.78150177,-74.32569885
+Gaines Valley Aviation Airport,NY06,43.29639816,-78.21389771
+Kline Kill Airport,NY1,42.35010147,-73.63710022
+South Dayton Airport,NY27,42.3708992,-79.0094986
+Paradise Airport,NY42,43.219988,-76.68945
+Grund Field,NY55,42.44729996,-76.59690094
+Richfield Airport,NY68,42.86119843,-74.94539642
+Alexander Farm Airport,NY82,42.58060074,-73.61620331
+Jersey Shore Airport,P96,41.207001,-77.226097
+Beaver Springs Airport,PA39,40.7765007,-77.21640015
+Bugs Airport,PA68,40.712943,-75.308055
+Nemacolin Airport,PA88,39.80559921,-79.54889679
+Rocky Hollow Field,PN72,40.56919861,-78.88249969
+Nettle Creek Landings Airport,IL68,41.432067,-88.522472
+Greater Breezewood Regional Airport,P17,39.874077,-78.297736
+Creekbend Airport,IN37,39.267519,-86.578508
+Williams Flying Field,24IN,39.236882,-85.693241
+R & R Aero Airport,5R5,42.721133,-78.186114
+Bakko Aviation Airport,MN71,45.47989,-95.33771
+Burgess Field,55D,43.18049,-82.98355
+Hard Barn Cargas Farm Airport,NY39,42.223406,-79.328125
+Waupun Airport,WI07,43.619723,-88.767693
+Cedar Island Airport,WI10,46.44822,-91.613051
+Minnesuing Airport,WI31,46.410753,-91.653787
+Rainbow Airport,WI37,45.80830002,-91.09629822
+Pine Grove Airport,WI42,45.65719986,-89.5298996
+Deer Haven Ranch Airport,WI60,44.83280182,-88.46320343
+Wag-Aero Airport,WI92,42.658955,-88.367932
+St Croix Valley Airport,WN86,45.26390076,-92.62159729
+Florida North Airport,WN98,45.65940094,-91.52249908
+Cloud Dancer Private Airport,WS13,45.31190109,-91.58969879
+Young Tactical Landing Site Airport,WS20,43.95299912,-90.66259766
+Leeward Farm Airport,WS51,43.35279846,-90.68099976
+Sky Hollow Airport,WS91,43.20859909,-90.66369629
+Walker Municipal Airport,Y49,47.15829849,-94.64610291
+Elbow Lake Municipal - Pride of the Prairie Airport,Y63,45.984678,-95.991712
+Bayfield County Airport,Y77,46.577329,-91.455603
+Home Acres Sky Ranch Airport,Y91,44.32030106,-85.17120361
